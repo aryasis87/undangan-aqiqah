@@ -24,7 +24,7 @@ const body = Nunito({
 const __jsonld = {"@context":"https://schema.org","@type":"Event","name":"Aqiqah Aisyah","description":"Undangan aqiqah digital"};
 
 export const metadata = {
-  metadataBase: new URL("https://undangan-aqiqah-puce.vercel.app"),
+  metadataBase: new URL("https://aqiqah.pintuweb.com"),
   title: "Undangan Aqiqah Digital — Aisyah Khairunnisa",
   description: "Undangan aqiqah digital bertema buku cerita yang hangat. Sambut kelahiran si buah hati dan undang keluarga dalam satu tautan indah.",
   applicationName: "Undangan Digital",
@@ -32,11 +32,11 @@ export const metadata = {
   authors: [{ name: "Undangan Digital" }],
   creator: "Undangan Digital",
   publisher: "Undangan Digital",
-  alternates: { canonical: "https://undangan-aqiqah-puce.vercel.app" },
+  alternates: { canonical: "https://aqiqah.pintuweb.com" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://undangan-aqiqah-puce.vercel.app",
+    url: "https://aqiqah.pintuweb.com",
     siteName: "Undangan Digital",
     title: "Undangan Aqiqah Digital — Aisyah Khairunnisa",
     description: "Undangan aqiqah digital bertema buku cerita yang hangat. Sambut kelahiran si buah hati dan undang keluarga dalam satu tautan indah.",

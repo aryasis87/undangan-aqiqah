@@ -1,7 +1,7 @@
 export default function robots() {
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: "https://undangan-aqiqah-puce.vercel.app/sitemap.xml",
-    host: "https://undangan-aqiqah-puce.vercel.app",
+    sitemap: "https://aqiqah.pintuweb.com/sitemap.xml",
+    host: "https://aqiqah.pintuweb.com",
   };
 }
