@@ -4,7 +4,11 @@ import { Check } from 'lucide-react';
 import config from '@/lib/data';
 import Page from './ui/Page';
 
-// Halaman 7: konfirmasi kehadiran (data lokal/dummy).
+// Halaman 7: konfirmasi kehadiran. Ini undangan contoh: data tidak dikirim ke mana pun.
+const PESAN_URL =
+  'https://wa.me/6281339908765?text=' +
+  encodeURIComponent('Halo PintuWeb, saya mau pesan undangan aqiqah digital seperti contoh Aisyah.');
+
 export default function RSVPForm({ onSubmit }) {
   const { baby } = config;
   const [form, setForm] = useState({ name: '', attendance: 'hadir', guests: 1 });
@@ -31,6 +35,12 @@ export default function RSVPForm({ onSubmit }) {
           </div>
           <p className="mt-4 font-display text-2xl font-bold text-ink">Terima kasih, {form.name}!</p>
           <p className="mt-1 text-sm text-muted">Sampai jumpa di acara aqiqah {baby.name}.</p>
+          <p className="mt-4 text-xs text-muted">
+            Ini undangan contoh, jadi konfirmasi tidak dikirim ke mana pun.{' '}
+            <a href={PESAN_URL} target="_blank" rel="noopener noreferrer" className="font-semibold text-rose-deep underline underline-offset-2 hover:text-ink">
+              Pesan undangan seperti ini
+            </a>
+          </p>
         </div>
       ) : (
         <form onSubmit={submit} className="mt-6 space-y-4 text-left">

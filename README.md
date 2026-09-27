@@ -1,5 +1,11 @@
 # Undangan Digital — Aqiqah (Storybook bayi)
 
+**Demo live:** https://undangan-aqiqah-puce.vercel.app
+
+![Tangkapan layar](public/og.jpg)
+
+> Undangan contoh dengan data fiktif. Formulir RSVP hanya demo dan tidak mengirim data.
+
 Konsep **buku cerita anak** — strukturnya halaman demi halaman (bukan gulir-section undangan biasa):
 
 - **BookCover** — sampul buku, tombol *Buka Buku*
@@ -20,3 +26,7 @@ Tiap section dibungkus komponen **`ui/Page`** (kartu halaman bertepi titik + nom
 npm install && npm run dev
 ```
 Semua konten di **`lib/data.js`** (objek `baby`, `nameMeaning`, `event`).
+
+---
+
+Bagian dari koleksi 8 undangan digital di [PortalUndangan](https://portal-undangan-eta.vercel.app). Dibuat oleh [PintuWeb](https://pintuweb.com), jasa pembuatan website.
