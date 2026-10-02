@@ -15,7 +15,7 @@ export default function Announcement() {
       </div>
 
       <h2 className="mt-6 break-words font-display text-4xl font-bold leading-tight text-rose-deep sm:text-5xl">{baby.fullName}</h2>
-      <p className="mt-3 font-script text-2xl text-gold">si kecil penuh berkah</p>
+      <p className="mt-3 font-script text-2xl text-[#ce6916]">si kecil penuh berkah</p>
 
       <p className="mt-5 text-sm leading-relaxed text-ink">
         {baby.gender} dari pasangan

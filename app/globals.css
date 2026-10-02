@@ -8,10 +8,10 @@
   --color-cream: #fbf8f3;
   --color-blush: #ffe6d6;
   --color-rose: #a9cce6;
-  --color-rose-deep: #6b9dc4;
+  --color-rose-deep: #3b6d93;
   --color-gold: #f1b07a;
   --color-ink: #4b4b63;
-  --color-muted: #9a9ab0;
+  --color-muted: #666683;
 
   --font-display: var(--font-quicksand), system-ui, sans-serif;
   --font-script: var(--font-caveat), cursive;

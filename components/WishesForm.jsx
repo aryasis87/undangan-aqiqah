@@ -27,10 +27,10 @@ export default function WishesForm() {
       <h2 className="text-center font-display text-3xl font-bold text-ink">Doa &amp; Ucapan</h2>
 
       <form onSubmit={submit} className="mt-6 space-y-3">
-        <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="Nama Anda" className={field} required />
-        <textarea value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} placeholder="Tulis doa untuk si kecil..." rows={3} className={`${field} resize-none`} required />
+        <input aria-label="Nama Anda" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="Nama Anda" className={field} required />
+        <textarea aria-label="Doa untuk si kecil" value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} placeholder="Tulis doa untuk si kecil..." rows={3} className={`${field} resize-none`} required />
         <button type="submit" className="inline-flex items-center gap-2 rounded-full bg-rose-deep px-6 py-3 text-sm font-bold text-cream transition hover:bg-ink">
-          <Send size={15} /> Kirim Doa
+          <Send size={15} aria-hidden="true" /> Kirim Doa
         </button>
       </form>
 

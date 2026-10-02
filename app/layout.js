@@ -21,7 +21,7 @@ const body = Nunito({
   display: 'swap',
 });
 
-const __jsonld = {"@context":"https://schema.org","@type":"Event","name":"Aqiqah Aisyah","description":"Undangan aqiqah digital"};
+const __jsonld = {"@context":"https://schema.org","@type":"WebSite","name":"Undangan Aqiqah Digital — Aisyah Khairunnisa","description":"Contoh undangan aqiqah digital bergaya buku cerita: data kelahiran, arti nama, galeri, RSVP, doa, dan musik latar.","inLanguage":"id"};
 
 export const metadata = {
   metadataBase: new URL("https://undangan-aqiqah-puce.vercel.app"),
